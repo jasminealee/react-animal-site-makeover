@@ -22,7 +22,7 @@ const masterAnimalList = [
 function AnimalList() {
   return (
     <div>
-      <Link to="/">Home</Link> | <Link to="/animals">Animals</Link> | <Link to="/about">About</Link>
+      <Link to="/">Home</Link> | <Link to="/animals">Animals</Link> | <Link to="/blogs">Blogs</Link> | <Link to="/about">About</Link>
       <h1>Animals: </h1>
       <hr/>
       {masterAnimalList.map((animal, index) =>

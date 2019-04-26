@@ -10,7 +10,7 @@
 ----------
 
 ## Description
-A web application built in React that allows a user to view blogs about animals, quick facts page about animals and a biography about the author. It also allows users to create blogs or facts about animals. 
+A web application built in React that allows a user to view blogs about animals, quick facts page about animals and a biography about the author. In the future, it will also allow users to create blogs or facts about animals. 
 
 ## Difference Between Angular and React
 Angular is a two-way data binding framework that updates the Real DOM, while React is a one-way property binding JavaScript library that updates the Virtual DOM.
@@ -30,7 +30,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Behavior </td>
-    <td>I want to be able to view the welcome page.</td>
+    <td>User views the welcome page.</td>
   </tr>
   <tr>
     <td> Input </td>
@@ -38,7 +38,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Output </td>
-    <td>User can see "Welcome" on the page.</td>
+    <td>User sees "Welcome" on the page.</td>
   </tr>
 </table>
 
@@ -48,7 +48,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Behavior </td>
-    <td>I want to be able to view a list of animal facts.</td>
+    <td>User views a list of animal facts.</td>
   </tr>
   <tr>
     <td> Input </td>
@@ -56,7 +56,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Output </td>
-    <td>User can see a list of all animal facts that have been inputted.</td>
+    <td>User seess a list of all animal facts that have been inputted.</td>
   </tr>
 </table>
 
@@ -66,7 +66,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Behavior </td>
-    <td>I want to be able to view the biography about the authors.</td>
+    <td>User views the biography about the author.</td>
   </tr>
   <tr>
     <td> Input </td>
@@ -74,7 +74,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Output </td>
-    <td>User can see a picture and information about the author.</td>
+    <td>User sees a picture and information about the author.</td>
   </tr>
 </table>  
 
@@ -84,17 +84,91 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Behavior </td>
+    <td>User views written blogs about animals.</td>
+  </tr>
+  <tr>
+    <td> Input </td>
+    <td>User Clicks "Blogs"</td>
+  </tr>
+  <tr>
+    <td> Output </td>
+    <td>User sees a list of blogs about animals.</td>
+  </tr>
+</table>  
+
+<table>  
+  <tr>
+    <th> Scenario 05 </th><th></th>
+  </tr>
+  <tr>
+    <td> Behavior </td>
     <td>I want to be able to view written blogs about animals.</td>
   </tr>
   <tr>
     <td> Input </td>
-    <td>User Clicks ""</td>
+    <td>User Clicks "Blogs"</td>
   </tr>
   <tr>
     <td> Output </td>
-    <td>User can see a picture and information about the author.</td>
+    <td>User can see a list of blogs about animals.</td>
   </tr>
 </table>  
+
+<table>  
+  <tr>
+    <th> Scenario 06 </th><th></th>
+  </tr>
+  <tr>
+    <td> Behavior </td>
+    <td>User views written blogs about animals.</td>
+  </tr>
+  <tr>
+    <td> Input </td>
+    <td>User Clicks "Blogs"</td>
+  </tr>
+  <tr>
+    <td> Output </td>
+    <td>User sees a list of blogs about animals.</td>
+  </tr>
+</table>  
+
+<table>  
+  <tr>
+    <th> Scenario 07 </th><th></th>
+  </tr>
+  <tr>
+    <td> Behavior </td>
+    <td>User inputs a fact about an animal.</td>
+  </tr>
+  <tr>
+    <td> Input </td>
+    <td> On the "Animals" page, the user Clicks "Create ", inputs information, and then clicks "submit".</td>
+  </tr>
+  <tr>
+    <td> Output </td>
+    <td>Once submitted, the new information automatically appears on the webpage.</td>
+  </tr>
+</table>    
+
+<table>  
+  <tr>
+    <th> Scenario 08 </th><th></th>
+  </tr>
+  <tr>
+    <td> Behavior </td>
+    <td>User creates a blog about an animal.</td>
+  </tr>
+  <tr>
+    <td> Input </td>
+    <td> On the "Blogs" page, the user Clicks "Create Blog" which takes them to the "create blog" url. There, the user inputs information and then clicks "submit". </td>
+  </tr>
+  <tr>
+    <td> Output </td>
+    <td> Once submitted, the page automatically redirects to the new updated "Blogs" page. </td>
+  </tr>
+</table>  
+
+
   
 
 ## Notes
