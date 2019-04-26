@@ -1,15 +1,3 @@
-thoughts:
-
-
-
-notes:
-Couldn't get program to run, issues were with the installments, but had issues pinpointing installments that were causing the issues. . ---> Ended up reinstalling commands 
-AboutUs.jsx had issues running any picture except for elephantanddog.jpg
-
-Kept getting error that said properties undefined (all of my imports)
-
-Difference between react and angular 
-
 |<img src="https://github.com/identicons/jasminealee.png" width=100 alt="GitHub identicon for author jasminealee">|
 |:-----:|
 | [**jasminealee**](https://github.com/jasminealee ) |
@@ -22,7 +10,7 @@ Difference between react and angular
 ----------
 
 ## Description
-A web application built in React that allows a user to view blogs about animals or view the quick facts page about animals. It also allows users to create a blog or fact about an animal. In the future, users will also be able to vote for their favorite facts and blogs with the option to sign in and give feedback to blogs.
+A web application built in React that allows a user to view blogs about animals, quick facts page about animals and a biography about the author. It also allows users to create blogs or facts about animals. 
 
 ## Difference Between Angular and React
 Angular is a two-way data binding framework that updates the Real DOM, while React is a one-way property binding JavaScript library that updates the Virtual DOM.
@@ -42,6 +30,24 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Behavior </td>
+    <td>I want to be able to view the welcome page.</td>
+  </tr>
+  <tr>
+    <td> Input </td>
+    <td>User Clicks "Home"</td>
+  </tr>
+  <tr>
+    <td> Output </td>
+    <td>User can see "Welcome" on the page.</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th> Scenario 02 </th><th></th>
+  </tr>
+  <tr>
+    <td> Behavior </td>
     <td>I want to be able to view a list of animal facts.</td>
   </tr>
   <tr>
@@ -52,25 +58,68 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
     <td> Output </td>
     <td>User can see a list of all animal facts that have been inputted.</td>
   </tr>
+</table>
 
+<table>  
+  <tr>
+    <th> Scenario 03 </th><th></th>
+  </tr>
+  <tr>
+    <td> Behavior </td>
+    <td>I want to be able to view the biography about the authors.</td>
+  </tr>
+  <tr>
+    <td> Input </td>
+    <td>User Clicks "About"</td>
+  </tr>
+  <tr>
+    <td> Output </td>
+    <td>User can see a picture and information about the author.</td>
+  </tr>
+</table>  
+
+<table>  
+  <tr>
+    <th> Scenario 04 </th><th></th>
+  </tr>
+  <tr>
+    <td> Behavior </td>
+    <td>I want to be able to view written blogs about animals.</td>
+  </tr>
+  <tr>
+    <td> Input </td>
+    <td>User Clicks ""</td>
+  </tr>
+  <tr>
+    <td> Output </td>
+    <td>User can see a picture and information about the author.</td>
+  </tr>
+</table>  
+  
 
 ## Notes
 
+| Issue | Solution |
+|:-------:|:-----:|
+|Couldn't get program to run, issues were with the installments (kept receiving "properties undefined (all of my imports)", but had issues pinpointing installments that were causing the issues. | Re-Installed all installments. |
+|AboutUs.jsx had issues running any picture except for elephantanddog.jpg | Reverted back to using elephantanddog.jpg.|
+|My Github profile image didn't appear correctly in README.md. | Found a different link to connect my Github profile image to README.md. |
+
 
 ## Setup and Use
+Prerequisites: [Node.js](https://nodejs.org/en/) and [Node.js Package Manager (npm)](https://www.npmjs.com/)
 
-#### Prerequisites
-* [Node.js](https://nodejs.org/en/)
-* [Node.js Package Manager (npm)](https://www.npmjs.com/)
-
-#### Download Repo
-1. Download and install required software: Node.js, npm
-2. 
-
-
+* Open GitHub and go to https://github.com/jasminealee/WordCounter.Solution and click `clone or download`; copy the url provided.
+* Go to Terminal and clone the folder by inputting `$ git clone https://github.com/jasminealee/react-animal-site-makeover` then enter.
+* Navigate to project directory in Terminal by typing "cd animal-site-makeover" then enter.
+* Input the command `$ npm install` then enter.
+* Input the command `$ npm run start` then enter.
+* Navigate to the local host that terminal provides to see the application.
 
 ## Contact
+If you have any questions or concerns please contact me at: [jasmine.al1722@gmail.com](mailto:jasmine.al1722@gmail.com)
 
-[jasmine.al1722@gmail.com](mailto:jasmine.al1722@gmail.com)
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2019 Jasmine Lee. All Rights Reserved.
 
-
+Copyright (c) 2019 [Jasmine Lee](https://github.com/jasminealee)
