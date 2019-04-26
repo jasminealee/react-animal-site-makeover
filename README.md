@@ -3,7 +3,7 @@ thoughts:
 
 
 notes:
-
+Couldn't get program to run (issues were )
 
 
 
