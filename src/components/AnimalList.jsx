@@ -1,11 +1,30 @@
-import React from "react";
-import Animal from "./Animal";
+import React from 'react';
+import Animal from './Animal';
+import { Link } from 'react-router-dom';
 
-function AnimalList(){
 
+const masterAnimalList = [
+  {
+    species: 'Squirrel',
+    note: 'They are omnivores'
+  }
+];
+
+function AnimalList() {
   return (
-    <Animal/>
+    <div>
+      <Link to="/about">About</Link>
+      <h1>Farmer's Market Schedule: </h1>
+      <hr/>
+      {masterAnimalList.map((animal, index) =>
+        <MarketSchedule
+          species={animal.species}
+          note={animal.note}
+          key={index}/>
+      )}
+    </div>
   );
 }
+
 
 export default AnimalList;
