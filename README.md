@@ -8,4 +8,4 @@ AboutUs.jsx had issues running any picture except for elephantanddog.jpg
 
 Kept getting error that said properties undefined (all of my imports)
 
-Difference between react and angular:
+Difference between react and angular 
