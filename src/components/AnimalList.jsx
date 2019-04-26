@@ -17,7 +17,7 @@ function AnimalList() {
       <h1>Farmer's Market Schedule: </h1>
       <hr/>
       {masterAnimalList.map((animal, index) =>
-        <MarketSchedule
+        <Animal
           species={animal.species}
           note={animal.note}
           key={index}/>
