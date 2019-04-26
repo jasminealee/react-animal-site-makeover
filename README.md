@@ -10,9 +10,9 @@ Kept getting error that said properties undefined (all of my imports)
 
 Difference between react and angular 
 
-
-[<img src="https://avatars0.githubusercontent.com/u/46458105?s=460&v=4" width=100 alt="GitHub identicon for author jasminealee">](https://github.com/jasminealee)
-[**jasminelee**](https://github.com/jasminealee)
+|<img src="https://github.com/identicons/jasminealee.png" width=100 alt="GitHub identicon for author jasminealee">|
+|:-----:|
+| [**jasminealee**](https://github.com/jasminealee ) |
 
 ## Animal Site Makeover
 
