@@ -16,6 +16,8 @@ function Animal(props){
   );
 }
 
+
+
 Animal.propTypes = {
   species: PropTypes.string,
   note: PropTypes.string,
