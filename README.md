@@ -168,7 +168,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
     <td> Once submitted, the page automatically redirects to the new updated "Blogs" page. </td>
   </tr>
 </table>  
-
+</details>
 
 ## Notes
 
