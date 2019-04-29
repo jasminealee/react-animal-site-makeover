@@ -7,15 +7,15 @@
 
 ###### Two Week Independent Project Intializied on April 16th, 2019.
 
-#### By Jasmine Lee 
+#### By Jasmine Lee
 ----------
 
 ## Description
-A web application built in React that allows a user to view blogs about animals, quick facts page about animals and a biography about the author. In the future, it will also allow users to create blogs or facts about animals. 
+A web application built in React that allows a user to view blogs about animals, quick facts page about animals and a biography about the author. In the future, it will also allow users to create blogs or facts about animals.
 
 
-  <img alt="Description" src="https://uc6d5b44fb3667a23d429ff53064.dl.dropboxusercontent.com/cd/0/inline/AfyI67PeqJaMoDfY4ATDPFpwKWVh6zrjJI140u4asfOavewdOCYul-eC1MAi1cUMmQOKP_2KDhAXb2WrSUZNSWTLKAyVn7nwqEdS29xLothxCtSj05CvJ82ZW5jiGSagm7A/file">
-  
+![Component-Tree](/images/component-tree.png)
+
 
 ## Difference Between Angular and React
 Angular is a two-way data binding framework that updates the Real DOM, while React is a one-way property binding JavaScript library that updates the Virtual DOM.
