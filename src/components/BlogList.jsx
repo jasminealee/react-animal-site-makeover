@@ -24,7 +24,7 @@ const masterBlogList = [
 function BlogList() {
   return (
     <div>
-      <Link to="/">Home</Link> | <Link to="/animals">Animals</Link> | <Link to="/blogs">Blogs</Link> | <Link to="/about">About</Link>
+      <Link to="/">Home</Link> | <Link to="/animals">Animals</Link> | <Link to="/blogs">Blogs</Link> | <Link to="/newanimal">New Animal</Link> | <Link to="/about">About</Link>
       <h1>Animals: </h1>
       <hr/>
       {masterBlogList.map((blog, index) =>

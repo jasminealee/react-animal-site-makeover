@@ -6,6 +6,7 @@ import AboutUs from './AboutUs';
 import BlogList from './BlogList';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
+import  NewAnimalControl from './NewAnimalControl';
 
 
 function App(){
@@ -17,6 +18,7 @@ function App(){
         <Route path='/animals' component={AnimalList} />
         <Route path='/blogs' component={BlogList} />
         <Route path='/about' component={AboutUs} />
+        <Route path='/newanimal' component={NewAnimalControl} />
         <Route component={Error404} />
       </Switch>
     </div>
