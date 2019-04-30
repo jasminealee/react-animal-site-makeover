@@ -3,21 +3,6 @@ import Animal from './Animal';
 import { Link } from 'react-router-dom';
 
 
-const masterAnimalList = [
-  {
-    species: 'Squirrel',
-    note: 'They are omnivores.'
-  },
-  {
-    species: 'Raccoon',
-    note: 'They like cereal.'
-  },
-  {
-    species: 'Cat',
-    note: 'They like to stare.'
-  },
-
-];
 
 function AnimalList() {
   return (

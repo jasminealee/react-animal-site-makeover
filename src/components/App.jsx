@@ -9,20 +9,28 @@ import { Switch, Route } from 'react-router-dom';
 import  NewAnimalControl from './NewAnimalControl';
 
 
-function App(){
-  return (
-    <div>
-      <Header/>
-      <Switch>
-        <Route exact path='/' component={Welcome} />
-        <Route path='/animals' component={AnimalList} />
-        <Route path='/blogs' component={BlogList} />
-        <Route path='/about' component={AboutUs} />
-        <Route path='/newanimal' component={NewAnimalControl} />
-        <Route component={Error404} />
-      </Switch>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      masterAnimalList: []
+    };
+  }
+  render(){
+    return (
+      <div>
+        <Header/>
+        <Switch>
+          <Route exact path='/' component={Welcome} />
+          <Route path='/animals' component={AnimalList} />
+          <Route path='/blogs' component={BlogList} />
+          <Route path='/about' component={AboutUs} />
+          <Route path='/newanimal' render={()=><NewAnimalControl onNewAnimalCreation={this.handleAddingNewAnimalToList} />} />
+          <Route component={Error404} />
+        </Switch>
+      </div>
+    );
+  }
 }
 
 export default App;
