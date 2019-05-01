@@ -7,18 +7,22 @@ import PropTypes from 'prop-types';
 function AnimalList(props) {
   return (
     <div>
-      <h1>Animals: </h1>
+    <hr/>
+    <h1>Animal</h1>
       <hr/>
-      {props.animalList.map((animal, index) =>
+      {props.animalList.map((animal) =>
         <Animal species={animal.species}
           note={animal.note}
-          key={index}/>
+          formattedWaitTime={animal.formattedWaitTime}
+          currentRouterPath={props.currentRouterPath}
+          key={animal.id}/>
       )}
     </div>
   );
 }
 AnimalList.propTypes = {
-  animalList: PropTypes.array
+  animalList: PropTypes.array,
+  currentRouterPath: PropTypes.string
 };
 
 

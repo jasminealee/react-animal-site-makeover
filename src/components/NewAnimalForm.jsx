@@ -1,5 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { v4 } from 'uuid';
+import Moment from 'moment';
+
+
 
 function NewAnimalForm(props){
   let _species = null;
@@ -7,7 +11,7 @@ function NewAnimalForm(props){
 
   function handleNewAnimalFormSubmission(event) {
     event.preventDefault();
-    props.onNewAnimalCreation({species: _species.value, note: _note.value});
+    props.onNewAnimalCreation({species: _species.value, note: _note.value, id: v4(), timeOpen: new Moment()});
     _species.value = '';
     _note.value = '';
   }

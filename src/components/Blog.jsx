@@ -12,6 +12,7 @@ function Blog(props){
       <h3>{props.title}</h3>
       <h3>{props.species}</h3>
       <h3>{props.note}</h3>
+      <h4>{props.formattedWaitTime}</h4>
       <hr/>
     </div>
   );
