@@ -1,19 +1,21 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function NewAnimalForm(){
+function NewAnimalForm(props){
   let _species = null;
   let _note= null;
+
   function handleNewAnimalFormSubmission(event) {
     event.preventDefault();
-    console.log(_species.value);
-    console.log(_note.value);
+    props.onNewAnimalCreation({species: _species.value, note: _note.value});
     _species.value = '';
     _note.value = '';
   }
   return (
     <div>
       <form onSubmit={handleNewAnimalFormSubmission}>
-        <textarea
+        <input
+          type='text'
           id='species'
           placeholder='Species'
           ref={(input) => {_species = input;}}/>
@@ -26,5 +28,10 @@ function NewAnimalForm(){
     </div>
   );
 }
+
+NewAnimalForm.propTypes = {
+  onNewAnimalCreation: PropTypes.func
+};
+
 
 export default NewAnimalForm;

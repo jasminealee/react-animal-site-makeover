@@ -1,6 +1,7 @@
 import React from 'react';
 import ConfirmationQuestions from './ConfirmationQuestions';
 import NewAnimalForm  from './NewAnimalForm';
+import PropTypes from 'prop-types';
 
 class NewAnimalControl extends React.Component {
 
@@ -19,9 +20,9 @@ class NewAnimalControl extends React.Component {
   render(){
     let currentlyVisibleContent = null;
     if (this.state.formVisibleOnPage){
-      currentlyVisibleContent = <NewAnimalForm />;
+      currentlyVisibleContent = <NewAnimalForm onNewAnimalCreation={this.props.onNewAnimalCreation}/>;
     } else {
-    currentlyVisibleContent = <ConfirmationQuestions onTroubleshootingConfirmation={this.handleTroubleshootingConfirmation}/>;
+      currentlyVisibleContent = <ConfirmationQuestions onTroubleshootingConfirmation={this.handleTroubleshootingConfirmation}/>;
     }
     return (
       <div>
@@ -31,5 +32,8 @@ class NewAnimalControl extends React.Component {
   }
 }
 
+NewAnimalControl.propTypes = {
+  onNewAnimalCreation: PropTypes.func
+};
 
 export default NewAnimalControl;
