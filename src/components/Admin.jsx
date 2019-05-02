@@ -6,12 +6,13 @@ import AnimalDetail from './AnimalDetail';
 
 function Admin(props){
   let optionalSelectedAnimalContent = null;
-  if (props.selectedAnimal != null){
-    optionalSelectedAnimalContent =  <AnimalDetail selectedAnimal={props.selectedAnimal}/>;
+  if (props.selectedAnimal != null) {
+    optionalSelectedAnimalContent =  (<AnimalDetail selectedAnimal={props.animalList[props.selectedAnimal]}/>);
   }
   return (
     <div>
       <h1>Admin</h1>
+      {optionalSelectedAnimalContent}
       <AnimalList
         animalList={props.animalList}
         currentRouterPath={props.currentRouterPath}
@@ -21,10 +22,10 @@ function Admin(props){
 }
 
 Admin.propTypes = {
-  animalList: PropTypes.array,
+  animalList: PropTypes.object,
   currentRouterPath: PropTypes.string.isRequired,
   onAnimalSelection: PropTypes.func.isRequired,
-  selectedAnimal: PropTypes.object
+  selectedAnimal: PropTypes.string
 };
 
 export default Admin;
