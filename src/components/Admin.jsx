@@ -5,6 +5,10 @@ import AnimalDetail from './AnimalDetail';
 
 
 function Admin(props){
+  const admin = {
+    backgroundColor: '#ecf0f1',
+    fontFamily: 'sans-serif',
+  };
   let optionalSelectedAnimalContent = null;
   if (props.selectedAnimal != null) {
     optionalSelectedAnimalContent =  (<AnimalDetail selectedAnimal={props.animalList[props.selectedAnimal]}/>);
@@ -12,11 +16,13 @@ function Admin(props){
   return (
     <div>
       <h1>Admin</h1>
-      {optionalSelectedAnimalContent}
-      <AnimalList
-        animalList={props.animalList}
-        currentRouterPath={props.currentRouterPath}
-        onAnimalSelection={props.onAnimalSelection} />
+      <div style={admin}>
+        {optionalSelectedAnimalContent}
+        <AnimalList
+          animalList={props.animalList}
+          currentRouterPath={props.currentRouterPath}
+          onAnimalSelection={props.onAnimalSelection} />
+      </div>
     </div>
   );
 }
