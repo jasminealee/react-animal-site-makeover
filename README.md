@@ -43,7 +43,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Output </td>
-    <td>User sees a list of all species and notes that are inputted and the time they were created, in blocks.</td>
+    <td>User sees a list of all species and notes that are inputted and the time they were created, in blocks. There is no database used, so all inputted information only appears until the page is refreshed.</td>
   </tr>
 </table>
 
