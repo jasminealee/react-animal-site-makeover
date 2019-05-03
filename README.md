@@ -21,12 +21,11 @@ Changes from previous Component Tree:
   <li>Changed the component names (aside from App, ConfirmationQuestions, and Error404) to my current component names.</li>
   <li>Label App and NewAnimalControl as states.</li>
 </ol>
-  
+
 ## Difference Between Angular and React
 Angular is a two-way data binding framework that updates the Real DOM, while React is a one-way property binding JavaScript library that updates the Virtual DOM.
 
 ## Specifications
-
 <details>
 <summary>User Stories and Specifications</summary>
 
@@ -36,15 +35,15 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Behavior </td>
-    <td>User views the welcome page.</td>
+    <td>User views the list of inputted animals.</td>
   </tr>
   <tr>
     <td> Input </td>
-    <td>User Clicks "Home"</td>
+    <td>User Clicks "Home".</td>
   </tr>
   <tr>
     <td> Output </td>
-    <td>User sees a list of all species notes that were inutted and the time they were created, in blocks.</td>
+    <td>User sees a list of all species and notes that are inputted and the time they were created, in blocks.</td>
   </tr>
 </table>
 
@@ -68,61 +67,34 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
 
 <table>  
   <tr>
+    <th> Scenario 03 </th><th></th>
+  </tr>
+  <tr>
+    <td> Behavior </td>
+    <td>User inputs information about a new animal.</td>
+  </tr>
+  <tr>
+    <td> Input </td>
+    <td> User clicks "Create Animal" and then is prompted with the question "Would you like to proceed?" Then they click "Yes". The user will then input a species and a note about the species before clicking "Submit". To view the updated animals list, the user must click "Home". </td>
+  </tr>
+</table>
+
+<table>  
+  <tr>
     <th> Scenario 04 </th><th></th>
   </tr>
   <tr>
     <td> Behavior </td>
-    <td>User views written blogs about animals.</td>
+    <td>User selects information as Admin.</td>
   </tr>
   <tr>
     <td> Input </td>
-    <td>User Clicks "Blogs"</td>
-  </tr>
-  <tr>
-    <td> Output </td>
-    <td>User sees a list of blogs about animals.</td>
-  </tr>
-</table>  
-
-<table>  
-  <tr>
-    <th> Scenario 05 </th><th></th>
-  </tr>
-  <tr>
-    <td> Behavior </td>
-    <td>I want to be able to view written blogs about animals.</td>
-  </tr>
-  <tr>
-    <td> Input </td>
-    <td>User Clicks "Blogs"</td>
-  </tr>
-  <tr>
-    <td> Output </td>
-    <td>User can see a list of blogs about animals.</td>
-  </tr>
-</table>  
-
-<table>  
-  <tr>
-    <th> Scenario 07 </th><th></th>
-  </tr>
-  <tr>
-    <td> Behavior </td>
-    <td>User inputs a fact about an animal.</td>
-  </tr>
-  <tr>
-    <td> Input </td>
-    <td> On the "Animals" page, the user Clicks "Create ", inputs information, and then clicks "submit".</td>
-  </tr>
-  <tr>
-    <td> Output </td>
-    <td>Once submitted, the new information automatically appears on the webpage.</td>
+    <td> User clicks "Admin". All animals that have been inputted will appear on the page. The user clicks on the species of an animal and that species, note and time it was created appears in larger font. The user clicks on a different species and that information appears in larger font and takes precedent over the other previously selected species.</td>
   </tr>
 </table>    
 </details>
 
 ## Notes
-
 | Issue | Solution |
 |:-------:|:-----:|
 |Couldn't get program to run, issues were with the installments (kept receiving "properties undefined (all of my imports)", but had issues pinpointing installments that were causing the issues. | Re-Installed all installments. |
@@ -153,7 +125,6 @@ Prerequisites: [Node.js](https://nodejs.org/en/) and [Node.js Package Manager (n
 * Hot Module Replacement
 
 ## Known Bugs
-
 * No Known Bugs
 
 ## Contact
