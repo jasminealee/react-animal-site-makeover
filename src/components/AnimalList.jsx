@@ -32,3 +32,4 @@ AnimalList.propTypes = {
 };
 
 export default AnimalList;
+ 
