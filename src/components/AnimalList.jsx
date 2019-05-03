@@ -4,11 +4,17 @@ import PropTypes from 'prop-types';
 
 
 function AnimalList(props) {
+  const animallist = {
+    backgroundColor: '#ecf0f1',
+    fontFamily: 'sans-serif',
+    paddingTop: '0px',
+    paddingBottom: '20px',
+    border: 'groove'
+  };
   return (
-    <div>
-      <hr/>
+    <div style={animallist}>
+      <br/>
       <h1>Animal</h1>
-      <hr/>
       {Object.keys(props.animalList).map(function(animalId) {
         var animal = props.animalList[animalId];
         return (<Animal species={animal.species}
@@ -32,4 +38,3 @@ AnimalList.propTypes = {
 };
 
 export default AnimalList;
- 
