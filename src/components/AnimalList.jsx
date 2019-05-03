@@ -7,14 +7,16 @@ function AnimalList(props) {
   const animallist = {
     backgroundColor: '#ecf0f1',
     fontFamily: 'sans-serif',
-    paddingTop: '0px',
+    paddingTop: '20px',
     paddingBottom: '20px',
     border: 'groove'
+
   };
   return (
-    <div style={animallist}>
-      <br/>
-      <h1>Animal</h1>
+    <div>
+      <h1>Animals</h1>
+      <hr/>
+      <div>
       {Object.keys(props.animalList).map(function(animalId) {
         var animal = props.animalList[animalId];
         return (<Animal species={animal.species}
@@ -27,6 +29,7 @@ function AnimalList(props) {
         />
         );
       })}
+      </div>
     </div>
   );
 }

@@ -16,8 +16,9 @@ function Admin(props){
   return (
     <div>
       <h1>Admin</h1>
-      <div style={admin}>
+      <div>
         {optionalSelectedAnimalContent}
+        <hr/>
         <AnimalList
           animalList={props.animalList}
           currentRouterPath={props.currentRouterPath}
