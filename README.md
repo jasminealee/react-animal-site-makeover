@@ -11,7 +11,7 @@
 ----------
 
 ## Description
-A web application built in React that allows a user to view blogs about animals, quick facts page about animals and a biography about the author. In the future, it will also allow users to create blogs or facts about animals.
+A web application built in React that allows a user to view blogs about animals, quick facts page about animals and a biography about the author.
 
 ## Component Tree
 ![Component-Tree](/images/component-tree.png)
