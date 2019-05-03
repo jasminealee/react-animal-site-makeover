@@ -5,10 +5,6 @@ import AnimalDetail from './AnimalDetail';
 
 
 function Admin(props){
-  const admin = {
-    backgroundColor: '#ecf0f1',
-    fontFamily: 'sans-serif',
-  };
   let optionalSelectedAnimalContent = null;
   if (props.selectedAnimal != null) {
     optionalSelectedAnimalContent =  (<AnimalDetail selectedAnimal={props.animalList[props.selectedAnimal]}/>);

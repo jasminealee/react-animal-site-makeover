@@ -9,18 +9,18 @@ function AnimalList(props) {
       <h1>Animals</h1>
       <hr/>
       <div>
-      {Object.keys(props.animalList).map(function(animalId) {
-        var animal = props.animalList[animalId];
-        return (<Animal species={animal.species}
-          note={animal.note}
-          formattedWaitTime={animal.formattedWaitTime}
-          currentRouterPath={props.currentRouterPath}
-          key={animalId}
-          onAnimalSelection={props.onAnimalSelection}
-          animalId={animalId}
-        />
-        );
-      })}
+        {Object.keys(props.animalList).map(function(animalId) {
+          var animal = props.animalList[animalId];
+          return (<Animal species={animal.species}
+            note={animal.note}
+            formattedWaitTime={animal.formattedWaitTime}
+            currentRouterPath={props.currentRouterPath}
+            key={animalId}
+            onAnimalSelection={props.onAnimalSelection}
+            animalId={animalId}
+          />
+          );
+        })}
       </div>
     </div>
   );
