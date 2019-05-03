@@ -117,24 +117,6 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
 
 <table>  
   <tr>
-    <th> Scenario 06 </th><th></th>
-  </tr>
-  <tr>
-    <td> Behavior </td>
-    <td>User views written blogs about animals.</td>
-  </tr>
-  <tr>
-    <td> Input </td>
-    <td>User Clicks "Blogs"</td>
-  </tr>
-  <tr>
-    <td> Output </td>
-    <td>User sees a list of blogs about animals.</td>
-  </tr>
-</table>  
-
-<table>  
-  <tr>
     <th> Scenario 07 </th><th></th>
   </tr>
   <tr>
@@ -150,24 +132,6 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
     <td>Once submitted, the new information automatically appears on the webpage.</td>
   </tr>
 </table>    
-
-<table>  
-  <tr>
-    <th> Scenario 08 </th><th></th>
-  </tr>
-  <tr>
-    <td> Behavior </td>
-    <td>User creates a blog about an animal.</td>
-  </tr>
-  <tr>
-    <td> Input </td>
-    <td> On the "Blogs" page, the user Clicks "Create Blog" which takes them to the "create blog" url. There, the user inputs information and then clicks "submit". </td>
-  </tr>
-  <tr>
-    <td> Output </td>
-    <td> Once submitted, the page automatically redirects to the new updated "Blogs" page. </td>
-  </tr>
-</table>  
 </details>
 
 ## Notes
@@ -177,6 +141,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
 |Couldn't get program to run, issues were with the installments (kept receiving "properties undefined (all of my imports)", but had issues pinpointing installments that were causing the issues. | Re-Installed all installments. |
 |AboutUs.jsx had issues running any picture except for elephantanddog.jpg | Reverted back to using elephantanddog.jpg.|
 |My Github profile image didn't appear correctly in README.md. | Found a different link to connect my Github profile image to README.md. |
+|Came across isses fixing the header so that it appears underneath every species, note, and time block. | Correct headers | Headers are correct |
 
 
 ## Setup and Use
@@ -184,7 +149,8 @@ Prerequisites: [Node.js](https://nodejs.org/en/) and [Node.js Package Manager (n
 
 * Open GitHub and go to https://github.com/jasminealee/WordCounter.Solution and click `clone or download`; copy the url provided.
 * Go to Terminal and clone the folder by inputting `$ git clone https://github.com/jasminealee/react-animal-site-makeover` then enter.
-* Navigate to project directory in Terminal by typing "cd animal-site-makeover" then enter.
+* Navigate to project directory in Terminal by typing `$ cd animal-site-makeover` then enter.
+* Type `$ apm install atom`
 * Input the command `$ npm install` then enter.
 * Input the command `$ npm run start` then enter.
 * Navigate to the local host that terminal provides to see the application.
