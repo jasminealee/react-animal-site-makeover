@@ -39,25 +39,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Output </td>
-    <td>User sees "Welcome" on the page.</td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <th> Scenario 02 </th><th></th>
-  </tr>
-  <tr>
-    <td> Behavior </td>
-    <td>User views a list of animal facts.</td>
-  </tr>
-  <tr>
-    <td> Input </td>
-    <td>User Clicks "Animals"</td>
-  </tr>
-  <tr>
-    <td> Output </td>
-    <td>User seess a list of all animal facts that have been inputted.</td>
+    <td>User sees a list of all species notes that were inutted and the time they were created, in blocks.</td>
   </tr>
 </table>
 
