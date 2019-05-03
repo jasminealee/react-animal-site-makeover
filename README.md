@@ -16,7 +16,10 @@ A web application built in React that allows a user to view blogs about animals,
 ## Component Tree
 ![Component-Tree](/images/component-tree.png)
 
-
+Changes from previous Component Tree:
+<ol>
+  <li>Changed the component names (aside from App, ConfirmationQuestions, and Error404) to my current component names.</li>
+  <li>Label App and NewAnimalControl as states.</li>
 ## Difference Between Angular and React
 Angular is a two-way data binding framework that updates the Real DOM, while React is a one-way property binding JavaScript library that updates the Virtual DOM.
 
