@@ -11,14 +11,14 @@
 ----------
 
 ## Description
-A web application built in React that allows a user to view quick facts about animals and a biography about the author. It also allows a user to input a species, a note about the species and submit the form.
+A web application built in React that allows a user to view quick facts about animals and information about the author. It also allows a user to input a species, a note about the species, and submit the form.
 
 ## Component Tree
 ![Component-Tree](/images/component-tree.png)
 
 Changes from previous Component Tree:
 <ol>
-  <li>Changed the component names (aside from App, ConfirmationQuestions, and Error404) to my current component names.</li>
+  <li>Changed the component names (aside from App, Header ConfirmationQuestions, and Error404) to my current component names.</li>
   <li>Label App and NewAnimalControl as states.</li>
 </ol>
 
@@ -89,7 +89,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
   </tr>
   <tr>
     <td> Input </td>
-    <td> User clicks "Admin". All animals that have been inputted will appear on the page. The user clicks on the species of an animal and that species, note and time it was created appears in larger font. The user clicks on a different species and that information appears in larger font and takes precedent over the other previously selected species.</td>
+    <td> User clicks "Admin". All animals that have been inputted will appear on the page. The user clicks on the species of an animal and that species, note and time it was created appears in larger font. The user clicks on a different species and that information appears in larger font in place of the other previously selected species. There is no database used, so all inputted information only appears until the page is refreshed.</td>
   </tr>
 </table>    
 </details>
@@ -98,10 +98,9 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
 | Issue | Solution |
 |:-------:|:-----:|
 |Couldn't get program to run, issues were with the installments (kept receiving "properties undefined (all of my imports)", but had issues pinpointing installments that were causing the issues. | Re-Installed all installments. |
-|AboutUs.jsx had issues running any picture except for elephantanddog.jpg | Reverted back to using elephantanddog.jpg.|
+|AboutUs.jsx had issues running any picture except for jpg images. | Using a .jpg image.|
 |My Github profile image didn't appear correctly in README.md. | Found a different link to connect my Github profile image to README.md. |
-|Came across isses fixing the header so that it appears underneath every species, note, and time block. | Correct headers | Headers are correct |
-
+|Came across isses fixing the header so that it appears underneath every species, note, and time block. | Issue has not been solved. |
 
 ## Setup and Use
 Prerequisites: [Node.js](https://nodejs.org/en/) and [Node.js Package Manager (npm)](https://www.npmjs.com/)
@@ -125,7 +124,7 @@ Prerequisites: [Node.js](https://nodejs.org/en/) and [Node.js Package Manager (n
 * Hot Module Replacement
 
 ## Known Bugs
-* No Known Bugs
+* Did not use a database, so all inputted information only appears until the page is refreshed.
 
 ## Contact
 If you have any questions or concerns please contact me at: [jasmine.al1722@gmail.com](mailto:jasmine.al1722@gmail.com)
