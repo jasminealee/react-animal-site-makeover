@@ -4,14 +4,6 @@ import PropTypes from 'prop-types';
 
 
 function AnimalList(props) {
-  const animallist = {
-    backgroundColor: '#ecf0f1',
-    fontFamily: 'sans-serif',
-    paddingTop: '20px',
-    paddingBottom: '20px',
-    border: 'groove'
-
-  };
   return (
     <div>
       <h1>Animals</h1>
