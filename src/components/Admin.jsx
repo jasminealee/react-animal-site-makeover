@@ -5,16 +5,21 @@ import AnimalDetail from './AnimalDetail';
 
 
 function Admin(props){
+  const admin = {
+    fontFamily: 'sans-serif',
+    borderBottom: '5px red solid'
+  };
   let optionalSelectedAnimalContent = null;
   if (props.selectedAnimal != null) {
     optionalSelectedAnimalContent =  (<AnimalDetail selectedAnimal={props.animalList[props.selectedAnimal]}/>);
   }
   return (
     <div>
-      <h1>Admin</h1>
+      <div style={admin}>
+        <h1>Admin</h1>
+      </div>
       <div>
         {optionalSelectedAnimalContent}
-        <hr/>
         <AnimalList
           animalList={props.animalList}
           currentRouterPath={props.currentRouterPath}

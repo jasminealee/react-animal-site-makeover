@@ -7,7 +7,7 @@ function Header(){
     backgroundColor: '#ecf0f1',
     fontFamily: 'sans-serif',
     paddingTop: '20px',
-    border: 'groove'
+    border: '5px groove lightgrey'
   };
   return (
     <div style={header}>
