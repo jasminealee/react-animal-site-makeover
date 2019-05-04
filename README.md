@@ -5,7 +5,7 @@
 
 ## Animal Site Makeover
 
-###### Two Week Independent Project Intializied on April 16th, 2019.
+###### Two Week Independent Project Initialized on April 16th, 2019.
 
 #### By Jasmine Lee
 ----------
@@ -57,7 +57,7 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
     </tr>
     <tr>
       <td> Input </td>
-      <td>User Clicks "About"</td>
+      <td>User Clicks "About".</td>
     </tr>
     <tr>
       <td> Output </td>
@@ -67,19 +67,19 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
 
   <table>  
     <tr>
-      <th>Scenario 03</th><th></th>
+      <th> Scenario 03 </th><th></th>
     </tr>
     <tr>
-      <td>Behavior</td>
-      <td>User inputs information about a new animal.</td>
+      <td> Behavior </td>
+      <td> User inputs information about a new animal. </td>
     </tr>
     <tr>
-      <td>Input</td>
-      <td> User clicks "Create Animal" and then is prompted with the question "Would you like to proceed?" Then they click "Yes". The user will then input a species and a note about the species before clicking "Submit".</td>
+      <td> Input </td>
+      <td> User clicks "Create Animal" and then is prompted with the question "Would you like to proceed?" Then they click "Yes". The user will then input a species and a note about the species before clicking "Submit". </td>
     </tr>
     <tr>
-      <td>Output</td>
-      <td>The user must click "Home" to view the updated Animals list. There is no database used, so all inputted information only appears until the page is refreshed.</td>
+      <td> Output </td>
+      <td> The user must click "Home" to view the updated Animals list. There is no database used, so all inputted information only appears until the page is refreshed. </td>
   </table>
 
   <table>  
@@ -88,15 +88,15 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
     </tr>
     <tr>
       <td> Behavior </td>
-      <td>User selects a species on the Admin page.</td>
+      <td> User selects a species on the Admin page. </td>
     </tr>
     <tr>
-      <td>Input</td>
-      <td>User clicks "Admin". All animals that have been inputted will appear on the page. The user then clicks on the species of an animal.</td>
+      <td> Input </td>
+      <td> User clicks "Admin". All animals that have been inputted will appear on the page. The user then clicks on the species of an animal. </td>
     </tr>
     <tr>
-      <td>Output</td>
-      <td>The species that was clicked, the corresponding note, and the time the block was created appear in another block above all of the listed animals in bold font. The user can also click on a different species. In that case, that information replaces the information in the block  that was previously bolded. There is no database used, so all inputted information only appears until the page is refreshed.</td>
+      <td> Output </td>
+      <td> The species that was clicked, the corresponding note, and the time the block was created appear in another block above all of the listed animals in bold font. The user can also click on a different species. In that case, that information replaces the information in the block  that was previously bolded. There is no database used, so all inputted information only appears until the page is refreshed. </td>
   </table>    
 </details>
 
