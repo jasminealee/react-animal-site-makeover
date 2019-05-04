@@ -29,69 +29,75 @@ Angular is a two-way data binding framework that updates the Real DOM, while Rea
 <details>
 <summary>User Stories and Specifications</summary>
 
-<table>
-  <tr>
-    <th> Scenario 01 </th><th></th>
-  </tr>
-  <tr>
-    <td> Behavior </td>
-    <td>User views the list of inputted animals.</td>
-  </tr>
-  <tr>
-    <td> Input </td>
-    <td>User Clicks "Home".</td>
-  </tr>
-  <tr>
-    <td> Output </td>
-    <td>User sees a list of all species and notes that are inputted and the time they were created, in blocks. There is no database used, so all inputted information only appears until the page is refreshed.</td>
-  </tr>
-</table>
+  <table>
+    <tr>
+      <th> Scenario 01 </th><th></th>
+    </tr>
+    <tr>
+      <td> Behavior </td>
+      <td>User views the list of inputted animals.</td>
+    </tr>
+    <tr>
+      <td> Input </td>
+      <td>User Clicks "Home".</td>
+    </tr>
+    <tr>
+      <td> Output </td>
+      <td>User sees a list of all species and notes that are inputted and the time they were created, in blocks. There is no database used, so all inputted information only appears until the page is refreshed.</td>
+    </tr>
+  </table>
 
-<table>  
-  <tr>
-    <th> Scenario 02 </th><th></th>
-  </tr>
-  <tr>
-    <td> Behavior </td>
-    <td>User views the biography about the author.</td>
-  </tr>
-  <tr>
-    <td> Input </td>
-    <td>User Clicks "About"</td>
-  </tr>
-  <tr>
-    <td> Output </td>
-    <td>User sees a picture and information about the author.</td>
-  </tr>
-</table>  
+  <table>  
+    <tr>
+      <th> Scenario 02 </th><th></th>
+    </tr>
+    <tr>
+      <td> Behavior </td>
+      <td>User views the biography about the author.</td>
+    </tr>
+    <tr>
+      <td> Input </td>
+      <td>User Clicks "About"</td>
+    </tr>
+    <tr>
+      <td> Output </td>
+      <td>User sees a picture and information about the author.</td>
+    </tr>
+  </table>  
 
-<table>  
-  <tr>
-    <th> Scenario 03 </th><th></th>
-  </tr>
-  <tr>
-    <td> Behavior </td>
-    <td>User inputs information about a new animal.</td>
-  </tr>
-  <tr>
-    <td> Input </td>
-    <td> User clicks "Create Animal" and then is prompted with the question "Would you like to proceed?" Then they click "Yes". The user will then input a species and a note about the species before clicking "Submit". To view the updated animals list, the user must click "Home". </td>
-  </tr>
-</table>
+  <table>  
+    <tr>
+      <th>Scenario 03</th><th></th>
+    </tr>
+    <tr>
+      <td>Behavior</td>
+      <td>User inputs information about a new animal.</td>
+    </tr>
+    <tr>
+      <td>Input</td>
+      <td> User clicks "Create Animal" and then is prompted with the question "Would you like to proceed?" Then they click "Yes". The user will then input a species and a note about the species before clicking "Submit".</td>
+    </tr>
+    <tr>
+      <td>Output</td>
+      <td>The user must click "Home" to view the updated Animals list. There is no database used, so all inputted information only appears until the page is refreshed.</td>
+  </table>
 
-<table>  
-  <tr>
-    <th> Scenario 04 </th><th></th>
-  </tr>
-  <tr>
-    <td> Behavior </td>
-    <td>User selects information as Admin.</td>
-  </tr>
-  <tr>
-    <td> Input </td>
-    <td> User clicks "Admin". All animals that have been inputted will appear on the page. The user clicks on the species of an animal and that species, note and time it was created appears in larger font. The user clicks on a different species and that information appears in larger font in place of the other previously selected species. There is no database used, so all inputted information only appears until the page is refreshed.</td>
-  </tr>
-</table>    
+  <table>  
+    <tr>
+      <th> Scenario 04 </th><th></th>
+    </tr>
+    <tr>
+      <td> Behavior </td>
+      <td>User selects a species on the Admin page.</td>
+    </tr>
+    <tr>
+      <td>Input</td>
+      <td>User clicks "Admin". All animals that have been inputted will appear on the page. The user then clicks on the species of an animal.</td>
+    </tr>
+    <tr>
+      <td>Output</td>
+      <td>The species that was clicked, the corresponding note, and the time the block was created appear in another block above all of the listed animals in bold font. The user can also click on a different species. In that case, that information replaces the information in the block  that was previously bolded. There is no database used, so all inputted information only appears until the page is refreshed.</td>
+  </table>    
 </details>
 
 ## Notes
@@ -108,7 +114,6 @@ Prerequisites: [Node.js](https://nodejs.org/en/) and [Node.js Package Manager (n
 * Open GitHub and go to https://github.com/jasminealee/WordCounter.Solution and click `clone or download`; copy the url provided.
 * Go to Terminal and clone the folder by inputting `$ git clone https://github.com/jasminealee/react-animal-site-makeover` then enter.
 * Navigate to project directory in Terminal by typing `$ cd animal-site-makeover` then enter.
-* Type `$ apm install atom`
 * Input the command `$ npm install` then enter.
 * Input the command `$ npm run start` then enter.
 * Navigate to the local host that terminal provides to see the application.
