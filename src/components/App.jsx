@@ -3,7 +3,6 @@ import Header from './Header';
 import AnimalList from './AnimalList';
 import AboutUs from './AboutUs';
 import Admin from './Admin';
-import Moment from 'moment';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
 import  NewAnimalControl from './NewAnimalControl';
